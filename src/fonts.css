@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "Monument Extended";
+  src: url("./font/MonumentExtended-Regular.otf") format("opentype");
+  /* Add other font formats (woff, woff2, etc.) for better browser compatibility */
+}
