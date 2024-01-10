@@ -1,72 +1,36 @@
-// import "./App.css";
-// import "./fonts.css";
-
-// import { SwapWidget } from "@uniswap/widgets";
-// import "@uniswap/widgets/fonts.css";
-// import UniswapHero from "./images/uniswap-hero.png";
-// import Marquee from "./Marquee";
-
-// const UniswapWidget = () => {
-//   return (
-//     <div className="uniswap-main">
-//       <div className="uniswap-widget-container">
-//         <div className="Uniswap">
-//           <SwapWidget />
-//         </div>
-//         <div className="uniswap-hero">
-//           <img src={UniswapHero} alt="uniswap-hero" />
-//         </div>
-//       </div>
-//       <Marquee />
-//     </div>
-//   );
-// };
-
 import "./App.css";
-import { useState } from "react";
-import { providers, ethers } from "ethers";
-import detectEthereumProvider from "@metamask/detect-provider";
-import { SwapWidget } from "@uniswap/widgets";
+import "./fonts.css";
 
-// const infuraId = process.env.REACT_APP_INFURA_ID;
-const jsonRpcEndpoint = `https://mainnet.infura.io/v3/f622ee1f7df04b36b59b6d807e811eb8`;
-const jsonRpcProvider = new providers.JsonRpcProvider(jsonRpcEndpoint);
-const provider = new ethers.providers.Web3Provider(jsonRpcProvider);
+import { Theme, SwapWidget } from "@uniswap/widgets";
+import "@uniswap/widgets/fonts.css";
+import UniswapHero from "./images/uniswap-hero-2.png";
+import Marquee from "./Marquee";
 
-function UniswapWidget() {
-  const [account, setAccount] = useState({
-    address: "",
-    provider: provider,
-  });
-
-  async function connectWallet() {
-    const ethereumProvider = await detectEthereumProvider();
-
-    if (ethereumProvider) {
-      const accounts = await window.ethereum.request({
-        method: "eth_requestAccounts",
-      });
-
-      const address = accounts[0];
-      setAccount({
-        address: address,
-        provider: ethereumProvider,
-      });
-    }
-  }
-
+const UniswapWidget = () => {
+  const theme: Theme = {
+    primary: "#FFF",
+    secondary: "#A9A9A9",
+    interactive: "#2C2C49",
+    container: "#0d0d10",
+    module: "#14152A",
+    accent: "#6246F7",
+    outline: "#2C2C49",
+    dialog: "#2C2C49",
+    // fontFamily: "Josefin Sans",
+  };
   return (
-    <div className="App">
-      <div>
-        <button onClick={connectWallet}>Connect Wallet</button>
+    <div className="uniswap-main">
+      <div className="uniswap-widget-container">
+        <div className="Uniswap">
+          <SwapWidget theme={theme} />
+        </div>
+        <div className="uniswap-hero">
+          <img src={UniswapHero} alt="uniswap-hero" />
+        </div>
       </div>
-      <div className="Uniswap">
-        <SwapWidget
-          provider={account.provider}
-          JsonRpcEndpoint={jsonRpcEndpoint}
-        />
-      </div>
+      <Marquee />
     </div>
   );
-}
+};
+
 export default UniswapWidget;

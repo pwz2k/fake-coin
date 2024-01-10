@@ -10,7 +10,7 @@ import Marquee from "./Marquee";
 import Reviews from "./Reviews";
 import RugPull from "./RugPull";
 import Footer from "./Footer";
-// import UniswapWidget from "./UniswapWidget";
+import UniswapWidget from "./UniswapWidget";
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
       <Additional />
       <Reviews />
       <HowToBuy />
-      {/* <UniswapWidget /> */}
+      <UniswapWidget />
       <FAQ />
       <Footer />
     </div>
