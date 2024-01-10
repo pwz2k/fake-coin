@@ -17,17 +17,16 @@ const AboutUs = () => {
         <div className="token-bg">
           <div className="token-container">
             <div className="token">
-              <p className="token-title">Fakecoin Token Public Sale</p>
+              <p className="token-title">The Cryptocurrency Equivalent of GameStop</p>
               <div className="token-text">
-                <p className="text-title">ICO Coming Soon</p>
-                <p className="text-mini-title">First lCO : 0.000 fakecoin</p>
+                <p className="text-title">Idiots Bonding Together to Pump Up a Shit Coin.</p>
               </div>
               <div className="token-buttons">
                 <a className="token-one" href="#">
-                  Buy $ Fake
+                  Buy Blondie
                 </a>
                 <a className="token-two" href="#">
-                  How To Buy $ Fake
+                  How To Buy Blondie
                 </a>
               </div>
             </div>
