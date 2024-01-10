@@ -7,10 +7,10 @@ const HeroContent = () => {
     <div className="hero-content-container">
       <div className="hero-content">
         <span className="mini-title">WELCOME TO</span>
-        <p className="title">FAKE FUNNY COIN</p>
+        <p className="title">BLONDIE COIN</p>
         <div className="button-container">
           <a href="#" className="buy-now">
-            <span>Buy Now</span>
+            <span>Invest Now</span>
             <img src={arrow} alt="arrow" />
           </a>
         </div>
