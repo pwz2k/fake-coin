@@ -11,7 +11,7 @@ const Reviews = () => {
         <div className="review-card-container">
           <div className="review-card">
             <p className="comment">
-              My wife’s boyfriend is gonna be pissed I spent their vacation money on this shit coin. My wife’s boyfriend is gonna be pissed I spent their vacation money on this shit coin. 
+              My wife’s boyfriend is gonna be pissed I spent their vacation money on this shit coin. Hopefully he forgives me when he finds out!
             </p>
             <p className="customer-name">-Grady Chambers</p>
           </div>
