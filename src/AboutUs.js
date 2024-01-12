@@ -17,9 +17,10 @@ const AboutUs = () => {
         <div className="token-bg">
           <div className="token-container">
             <div className="token">
-              <p className="token-title">The Cryptocurrency Equivalent of GameStop</p>
+              <p className="token-title">Idiots Bonding Together</p>
               <div className="token-text">
-                <p className="text-title">Idiots Bonding Together to Pump Up a Shit Coin.</p>
+                <p className="text-title">To Pump Up a Shit Coin.</p>
+                    <p className="text-mini-title">The Cryptocurrency Equivalent of GameStop</p>
               </div>
               <div className="token-buttons">
                 <a className="token-one" href="#">
