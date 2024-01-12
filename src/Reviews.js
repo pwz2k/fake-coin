@@ -23,7 +23,7 @@ const Reviews = () => {
           </div>
           <div className="review-card">
             <p className="comment">
-              I was kicked out of shib discord and needed a new home. Discovered Blondie and I won’t be pissed on ever again!
+              I was kicked out of shib discord and needed a new home. Discovered Blondie and I won’t be pissed on ever again by internet janitors!
             </p>
             <p className="customer-name">-Mike Hawk</p>
           </div>
