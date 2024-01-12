@@ -23,7 +23,7 @@ const Reviews = () => {
           </div>
           <div className="review-card">
             <p className="comment">
-              Diversify if you have $10M in the bank and you want to ensure you earn more than inflation. But to get to that you need to take risks. You need to pull off YOLO and pray.
+              I was kicked out of shib discord and needed a new home. Discovered Blondie and I won’t be pissed on ever again!
             </p>
             <p className="customer-name">-Mike Hawk</p>
           </div>
