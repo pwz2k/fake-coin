@@ -48,7 +48,7 @@ const HowToBuy = () => {
             <img src={Uniswap} alt="" />
             <p className="card-title">Witch ETH for $PEPE</p>
             <p className="card-description">
-              Switch ETH for $PEPE. We have ZERO taxes so you don’t need to
+              Switch ETH for $THISISMYCOIN. We have ZERO taxes so you don’t need to
               worry about buying with a specific slippage, although you may need
               to use slippage during times of market volatility.
             </p>
