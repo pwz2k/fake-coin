@@ -3,7 +3,7 @@ import "./fonts.css";
 import Wallet from "./images/icons/wallet.svg";
 import Eth from "./images/icons/eth-coin.svg";
 import Uniswap from "./images/icons/uniswap.svg";
-import Pepe from "./images/icons/pepe.svg";
+import Pepe from "./images/icons/blondie-KRRr3ujk.png";
 import Layer from "./images/layer.png";
 
 const HowToBuy = () => {
