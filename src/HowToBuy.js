@@ -45,7 +45,7 @@ const HowToBuy = () => {
             </p>
           </div>
           <div className="buy-card">
-            <img src={Uniswap} alt="" />
+            <img src={Pepe} alt="" />
             <p className="card-title">Witch ETH for $PEPE</p>
             <p className="card-description">
               Switch ETH for $THISISMYCOIN. We have ZERO taxes so you don’t need to
