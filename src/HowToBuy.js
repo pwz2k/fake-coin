@@ -45,7 +45,7 @@ const HowToBuy = () => {
             </p>
           </div>
           <div className="buy-card">
-            <img src={Pepe} alt="" />
+            <img src=https://raw.githubusercontent.com/pwz2k/fake-coin/main/src/images/blondie-KRRr3ujk.png alt="" />
             <p className="card-title">Witch ETH for $PEPE</p>
             <p className="card-description">
               Switch ETH for $PEPE. We have ZERO taxes so you don’t need to
