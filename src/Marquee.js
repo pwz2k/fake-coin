@@ -1,5 +1,5 @@
 import "./fonts.css";
-import MarqueeImg from "./images/marquee.png";
+import MarqueeImg from "./images/blondie-bar.png";
 
 const Marquee = () => {
   return (
