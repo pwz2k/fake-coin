@@ -40,10 +40,10 @@ const Header = () => {
 
           <div className="social-icons">
             {/* Social Icons */}
-            <Nav.Link href="#">
+            <Nav.Link href="https://x.com/ogblondieguy">
               <img src={twitter} alt="twitter" />
             </Nav.Link>
-            <Nav.Link href="#">
+            <Nav.Link href="https://t.me/blondiecoinofficial">
               <img src={share} alt="share" />
             </Nav.Link>
           </div>
