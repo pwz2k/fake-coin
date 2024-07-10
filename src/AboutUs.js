@@ -70,6 +70,7 @@ const AboutUs = () => {
             </a>
             <a href="https://chat.whatsapp.com/CbNaReqWUHR7EMPLTxtHvj">
               <img src={Whatsapp} alt="" />
+            </a>
           </div>
         </div>
         <div className="info-section-hero">
