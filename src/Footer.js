@@ -21,13 +21,13 @@ const Footer = () => {
             </div>
             <div className="footer-icons">
               <div className="footer-share">
-                <a href="#">
+                <a href="https://t.me/blondiecoinofficial">
                   <img src={FooterTelegram} alt="telegram" />
                 </a>
-                <a href="#">
+                <a href="https://x.com/ogblondieguy">
                   <img src={FooterTwitter} alt="twitter" />
                 </a>
-                <a href="#">
+                <a href="https://discord.gg/gjVArYkW">
                   <img src={FooterDiscord} alt="discord" />
                 </a>
               </div>
