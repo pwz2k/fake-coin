@@ -5,10 +5,9 @@ import Layer from "./images/layer.png";
 import TwiterBlue from "./images/icons/twitter-blue.svg";
 import Telegram from "./images/icons/telegram.svg";
 import Discord from "./images/icons/discord.svg";
-import Unknown from "./images/icons/unknown.svg";
-import Unknown1 from "./images/icons/unknown1.svg";
-import Unknown2 from "./images/icons/unknown2.svg";
-import Unknown3 from "./images/icons/unknown3.svg";
+import Instagram from "./images/icons/instagram.svg";
+import Facebook from "./images/icons/facebook.svg";
+import Whatsapp from "./images/icons/whatsapp.svg";
 
 const AboutUs = () => {
   return (
@@ -23,7 +22,7 @@ const AboutUs = () => {
                     <p className="text-mini-title">The Cryptocurrency Equivalent of GameStop</p>
               </div>
               <div className="token-buttons">
-                <a className="token-one" href="#">
+                <a className="token-one" href="https://app.uniswap.org/swap?chain=base&outputCurrency=0x37fc5e14aC765A5CeadA829A9Fc0D7d83d5de273">
                   Buy Blondie
                 </a>
                 <a className="token-two" href="#">
@@ -54,30 +53,23 @@ const AboutUs = () => {
             6,000,000% and deliver jaw-dropping returns
           </p>
           <div className="social-icons">
-            <a href="#">
-              <img src={TwiterBlue} alt="" />
+            <a href="https://x.com/ogblondieguy">
+              <img src={TwiterBlue} alt="https://x.com/ogblondieguy" />
             </a>
-            <a href="#">
+            <a href="https://t.me/blondiecoinofficial">
               <img src={Telegram} alt="" />
             </a>
-            <a href="#">
-              <img src={Telegram} alt="" />
-            </a>
-            <a href="#">
+            <a href="https://discord.gg/gjVArYkW">
               <img src={Discord} alt="" />
             </a>
-            <a href="#">
-              <img src={Unknown} alt="" />
+            <a href="https://www.instagram.com/blondiecoin">
+              <img src={Instagram} alt="" />
             </a>
-            <a href="#">
-              <img src={Unknown1} alt="" />
+            <a href="https://facebook.com/groups/blondiecoin/">
+              <img src={Facebook} alt="" />
             </a>
-            <a href="#">
-              <img src={Unknown2} alt="" />
-            </a>
-            <a href="#">
-              <img src={Unknown3} alt="" />
-            </a>
+            <a href="https://chat.whatsapp.com/CbNaReqWUHR7EMPLTxtHvj">
+              <img src={Whatsapp} alt="" />
           </div>
         </div>
         <div className="info-section-hero">
