@@ -16,7 +16,7 @@ const Footer = () => {
             </div>
             <div className="footer-categories">
               <a href="#">ROAD MAP</a>
-              <a href="#">HOW TO BUY</a>
+              <a href="https://app.uniswap.org/swap?chain=base&outputCurrency=0x37fc5e14aC765A5CeadA829A9Fc0D7d83d5de273">HOW TO BUY</a>
               <a href="#">ABOUT US</a>
             </div>
             <div className="footer-icons">
