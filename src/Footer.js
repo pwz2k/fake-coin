@@ -36,8 +36,8 @@ const Footer = () => {
 
           <div className="copyright-container">
             <div className="email">
-              <a href="mailto:faketothemoon@gmail.com">
-                FAKETOTHEMOON@GMAIL.COM
+              <a href="">
+                NO EMAIL, USE SOCIAL MEDIA CHANNELS TO COMMUNICATE. I WILL NEVER CONTACT YOU FIRST.
               </a>
             </div>
             <div className="copyright">
